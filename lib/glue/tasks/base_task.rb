@@ -17,7 +17,7 @@ class Glue::BaseTask
     @trigger = trigger
     @tracker = tracker
     @severity_filter = {
-      :low => ['low','weak', 'informational', 'info'],
+      :low => ['low','weak', 'informational', 'info', 'warning'],
       :medium => ['medium','med','average'],
       :high => ['high','severe','critical']
     }
